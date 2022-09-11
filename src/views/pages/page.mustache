@@ -19,4 +19,10 @@
   {{/pets}}
 </div>
 
+{{^pets}}
+  <div class="container no-list">
+    <h2>Não foi encontrado nenhum animal</h2>
+  </div>
+{{/pets}}
+
 {{>partials/footer}}
